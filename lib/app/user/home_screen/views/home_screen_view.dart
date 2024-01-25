@@ -11,6 +11,7 @@ class HomeScreenView extends GetView<HomeScreenController> {
       builder: (controller) {
       return Scaffold(
         body: InkWell(
+
           onTap: (){
             Get.back();
           },
