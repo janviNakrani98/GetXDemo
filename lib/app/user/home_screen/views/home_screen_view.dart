@@ -13,6 +13,8 @@ class HomeScreenView extends GetView<HomeScreenController> {
         body: InkWell(
 
 
+
+
           onTap: (){
             Get.back();
           },
